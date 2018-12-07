@@ -1,5 +1,9 @@
 # amplify-webapp
 
+AWS Amplify & AWS AppSync usage for web application
+
+detail to https://qiita.com/nakayama_cw/items/6d3514b51c5fbf9ba450
+
 > A Vue.js project
 
 ## Build Setup
