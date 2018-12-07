@@ -1,0 +1,53 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplifywebapp-20181207043555-authRole",
+			"UnauthRoleArn": "arn:aws:iam::322017223307:role/amplifywebapp-20181207043555-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::322017223307:role/amplifywebapp-20181207043555-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "amplifywebapp-20181207043555-deployment",
+			"UnauthRoleName": "amplifywebapp-20181207043555-unauthRole",
+			"StackName": "amplifywebapp-20181207043555",
+			"StackId": "arn:aws:cloudformation:us-west-2:322017223307:stack/amplifywebapp-20181207043555/9666d060-f9d9-11e8-844d-50a68a20128e"
+		}
+	},
+	"api": {
+		"amplifywebapp": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "cywx7tl23bgf7k62xcrbv3okja",
+				"GraphQLAPIEndpointOutput": "https://kgtv3yqagngybbnjw2rgpkezaq.appsync-api.us-west-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-jui53vsznfbmlnu2irleuu6dve"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplifywebapp-20181207043555-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiamplifywebapp"
+			},
+			"lastPushTimeStamp": "2018-12-07T07:05:38.801Z",
+			"lastPushDirHash": "v8nBmGTTfNOO6vzAfAmzk6MxV5w="
+		}
+	},
+	"auth": {
+		"cognitod98337f7": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplifywebapp-20181207043555-deployment/amplify-cfn-templates/auth/cognitod98337f7-cloudformation-template.yml",
+				"logicalId": "authcognitod98337f7"
+			},
+			"lastPushTimeStamp": "2018-12-07T07:05:38.802Z",
+			"output": {
+				"AppClientSecret": "rapgf86nh6fdi5uu2b0m5q5s3asrtqa55t5e366tmui59ifno1",
+				"UserPoolId": "us-west-2_06g5LreVl",
+				"AppClientIDWeb": "kkmsvfjefu9gh5bd2loomr4ea",
+				"AppClientID": "74t8ao1rog8fol8r2he4lj9ger",
+				"IdentityPoolId": "us-west-2:0b8f1acc-a685-4541-ad69-2c88dd21e5a2",
+				"IdentityPoolName": "cognitod98337f7_identitypool_d98337f7",
+				"UserPoolName": "cognitod98337f7_userpool_d98337f7"
+			},
+			"lastPushDirHash": "wAQpt4doyFP5UnKlm0mcCjKiBto="
+		}
+	}
+}
